@@ -1,7 +1,19 @@
-public static void main(string[] args)
+import java.util.*;
 
-public static List<Integer> removeEvens(List<Integer> list) {
-    List<Integer> result = new ArrayList<>();
-        Iterator<Integer> it = list.iterator();
-        while (it.hasNext()) {
-          
+public class P01d
+    static removeDuplicates(List<integer>inpit) {
+    }
+    public static void main(string[] args) {
+        int[] numbers = {4, 0, 2, 9, 4, 7, 2, 0, 0, 9, 6, 6};
+        list<integer> numlist = new ArrayList<>();
+        for (int n : numbers)
+            numlist.add(n);
+
+        List<integer> numlist = new ArrayList<>(
+            List.of (4, 0, 2, 9, 4, 7, 2, 0, 0, 9, 6, 6));
+
+            removeDuplicates (numList);
+        )
+    }
+
+    
