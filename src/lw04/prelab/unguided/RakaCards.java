@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class RakaCards {
 
-    // Selection sort, ascending, stopping after exactly `passes` passes
     static void sortCards(int[] arr, int passes) {
         for (int i = 0; i < passes && i < arr.length - 1; i++) {
             int idx = i;
@@ -23,7 +22,6 @@ public class RakaCards {
         }
     }
 
-    // Linear search: returns the index of target, or -1 if not found
     static int findCard(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
