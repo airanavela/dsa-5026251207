@@ -69,3 +69,13 @@ public class RakaCards {
 } {
     
 }
+
+
+
+
+
+static void insertionSort(int[] a) {}
+
+for (int nextRight = 1 ;nextright < a length; nextright++) {
+    int nextleft = nextright -1
+}
